@@ -2,3 +2,5 @@
 
 module WorkWave
 end
+
+require "work_wave/client"
