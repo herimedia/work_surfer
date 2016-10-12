@@ -3,4 +3,5 @@
 module WorkWave
 end
 
+require "work_wave/api"
 require "work_wave/client"
