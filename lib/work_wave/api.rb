@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 module WorkWave
-  class API
+  module API
     class << self
       def client
         Client.default_client
@@ -9,3 +9,6 @@ module WorkWave
     end
   end
 end
+
+require "work_wave/api/approved_plans"
+require "work_wave/api/time_of_arrival"
