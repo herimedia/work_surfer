@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-module WorkWave
+module WorkSurfer
   class Client
     OPTIONS_WITH_CLASS_DEFAULT = [
       :api_key,

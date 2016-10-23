@@ -1,2 +1,3 @@
-# work_wave-ruby
-An experiemental Ruby client for the WorkWave.com Route Manager API.
+# work_surfer
+An experiemental unofficial Ruby client for the
+[WorkWave.com Route Manager API](https://wwrm.workwave.com/api).

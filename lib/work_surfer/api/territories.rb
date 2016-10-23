@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-module WorkWave
+module WorkSurfer
   module API
     class Territories
       class << self
