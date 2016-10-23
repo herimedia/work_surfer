@@ -11,4 +11,5 @@ module WorkWave
 end
 
 require "work_wave/api/approved_plans"
+require "work_wave/api/territories"
 require "work_wave/api/time_of_arrival"
