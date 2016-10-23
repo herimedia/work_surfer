@@ -16,7 +16,7 @@ have it auto-constructed from a set of default options:
 **Has no default, must be provided.**
 
 Your WorkWave API key. You can e.g. get this key from the [WorkWave
-Route Manager](https://wwrm.workwave.com/) web application by clicking
+Route Manager web application](https://wwrm.workwave.com/) by clicking
 on your name in the top right corner, then clicking on "Account
 Settings" and finally copying the "API Key" from the modal dialog.
 
@@ -84,8 +84,7 @@ not be overwritten in most cases.
 ### Response format
 
 All responses are returned as a `Hash` with all keys and values exactly
-as described in the [API Reference
-Documentation](https://wwrm.workwave.com/api/#time-of-arrival-api).
+as described in the [API Reference Documentation](https://wwrm.workwave.com/api).
 
 ## Compatibility
 
