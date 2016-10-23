@@ -2,6 +2,7 @@ Gem::Specification.new do |s|
   s.authors   = ["Niels Ganser"]
   s.email     = "niels@herimedia.com"
   s.files     = Dir["lib/**/*.rb"]
+  s.homepage  = "https://github.com/herimedia/work_surfer"
   s.licenses  = ["MIT"]
   s.name      = "work_surfer"
   s.summary   = "An experiemental unofficial API client for the WorkWave.com Route Manager API."
