@@ -73,6 +73,10 @@ module WorkSurfer
       def default_client
         @default_client ||= new
       end
+
+      def default_client=(client)
+        @default_client = client
+      end
     end
   end
 end
