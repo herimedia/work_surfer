@@ -16,7 +16,12 @@ module WorkSurfer
       attr_accessor   option
     end
 
-    self.connection_builder = ->(builder) {}
+    self.connection_builder = ->(builder) {
+      builder.adapter   Faraday.default_adapter
+      builder.request   :url_encoded
+      builder.response  :parse_json
+    }
+
     self.connection_options = {}
     self.default_headers = {
       "X-WorkWave-Key": proc { api_key },

@@ -7,5 +7,6 @@ Gem::Specification.new do |s|
   s.summary   = "An experiemental unofficial API client for the WorkWave.com Route Manager API."
   s.version   = "0.0.1.alpha"
 
-  s.add_runtime_dependency "faraday", "~> 0.9.0"
+  s.add_runtime_dependency "faraday",             "~> 0.9.0"
+  s.add_runtime_dependency "faraday_middleware",  "~> 0.10.0"
 end
