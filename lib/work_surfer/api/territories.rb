@@ -5,7 +5,7 @@ module WorkSurfer
     class Territories < Base
       class << self
         def list
-          get("territories")
+          client.get("territories")
         end
       end
     end
