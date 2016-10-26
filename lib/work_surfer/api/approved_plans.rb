@@ -5,11 +5,11 @@ module WorkSurfer
     class ApprovedPlans < Base
       class << self
         def get(route_id, territory_id: WorkSurfer::Client.default_territory_id)
-          client.get("territories/#{territory_id}/approved/routes/#{route_id}")
+          get("territories/#{territory_id}/approved/routes/#{route_id}")
         end
 
         def list(date: "today", territory_id: WorkSurfer::Client.default_territory_id)
-          client.get("territories/#{territory_id}/approved/routes?date=#{formatted_date(date)}")
+          get("territories/#{territory_id}/approved/routes?date=#{formatted_date(date)}")
         end
       end
     end

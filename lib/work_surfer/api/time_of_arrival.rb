@@ -5,11 +5,11 @@ module WorkSurfer
     class TimeOfArrival < Base
       class << self
         def get(route_id, territory_id: WorkSurfer::Client.default_territory_id)
-          client.get("territories/#{territory_id}/toa/routes/#{route_id}")
+          get("territories/#{territory_id}/toa/routes/#{route_id}")
         end
 
         def list(date: nil, territory_id: WorkSurfer::Client.default_territory_id, vehicle_id: nil)
-          client.get("territories/#{territory_id}/toa/routes", { params: {
+          get("territories/#{territory_id}/toa/routes", { params: {
             date: date,
             territory_id: territory_id,
             vehicle: vehicle_id,
