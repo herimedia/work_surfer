@@ -2,10 +2,10 @@
 
 module WorkSurfer
   module API
-    class Territories < Base
+    class Base
       class << self
-        def list
-          client.get("territories")
+        def client
+          Client.default_client
         end
       end
     end
