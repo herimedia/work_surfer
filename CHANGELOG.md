@@ -5,6 +5,14 @@ An experiemental unofficial Ruby client for the
 
 ## v0
 
+### v0.0.2.2 (2016-10-26)
+
+- Fix date parsing bug.
+
+### v0.0.2.1 (2016-10-26)
+
+Internal changes only.
+
 ### v0.0.2 (2016-10-26)
 
 - Removed implicit dependency on ActiveSupport.
