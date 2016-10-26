@@ -3,6 +3,8 @@
 An experiemental unofficial Ruby client for the
 [WorkWave.com Route Manager API](https://wwrm.workwave.com/api).
 
+[![Gem Version](https://badge.fury.io/rb/work_surfer.svg)](https://badge.fury.io/rb/work_surfer)
+
 ## Usage
 
 ### Client Options
