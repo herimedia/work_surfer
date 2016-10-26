@@ -10,7 +10,7 @@ module WorkSurfer
 
         def list(date: nil, territory_id: WorkSurfer::Client.default_territory_id, vehicle_id: nil)
           client.get("territories/#{territory_id}/toa/routes", { params: {
-            date: date,
+            date: formatted_date(date),
             territory_id: territory_id,
             vehicle: vehicle_id,
           }.reject { |k, v| v.nil? } })
