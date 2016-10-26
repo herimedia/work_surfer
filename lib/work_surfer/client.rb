@@ -32,7 +32,7 @@ module WorkSurfer
     self.connection_builder = ->(builder) {
       builder.adapter   Faraday.default_adapter
       builder.request   :url_encoded
-      builder.response  :parse_json
+      builder.response  :json
     }
 
     self.connection_options = {}
