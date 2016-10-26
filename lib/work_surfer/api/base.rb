@@ -14,7 +14,7 @@ module WorkSurfer
           return date if date.to_s              == "today"
           return nil  if date.to_s.strip.length <= 0
 
-          date = date.respond_to?(:to_date)
+          date =
             if date.respond_to?(:to_date)
               date.to_date
             else
