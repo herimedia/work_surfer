@@ -12,8 +12,21 @@ module WorkSurfer
     ].freeze
 
     OPTIONS_WITH_CLASS_DEFAULT.each do |option|
-      cattr_accessor  option
-      attr_accessor   option
+      define_singleton_method(option) do
+        instance_variable_get("@#{option}")
+      end
+
+      define_singleton_method("#{option}=") do |*args|
+        instance_variable_set("@#{option}", *args)
+      end
+
+      define_method(option) do
+        instance_variable_get("@#{option}")
+      end
+
+      define_method("#{option}=") do |*args|
+        instance_variable_set("@#{option}", *args)
+      end
     end
 
     self.connection_builder = ->(builder) {
