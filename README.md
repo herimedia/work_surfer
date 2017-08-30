@@ -77,9 +77,10 @@ not be overwritten in most cases.
 
 ### APIs
 
-- `Territories.list()`
 - `ApprovedPlans.get(route_id, territory_id: WorkSurfer::Client.default_territory_id)`
 - `ApprovedPlans.list(date: "today", territory_id: WorkSurfer::Client.default_territory_id)`
+- `Orders.add(*orders, territory_id: WorkSurfer::Client.default_territory_id, **options)`
+- `Territories.list()`
 - `TimeOfArrival.get(route_id, territory_id: WorkSurfer::Client.default_territory_id)`
 - `TimeOfArrival.list(date: nil, territory_id: WorkSurfer::Client.default_territory_id, vehicle_id: nil)`
 
@@ -106,6 +107,10 @@ At the moment, The following APIs are supported:
 
 - List Approved Routes
 - Get Approved Route
+
+### [Orders](https://wwrm.workwave.com/api/#orders-api)
+
+- Add Orders
 
 ### [Territories](https://wwrm.workwave.com/api/#territories-api)
 

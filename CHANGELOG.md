@@ -5,6 +5,10 @@ An experiemental unofficial Ruby client for the
 
 ## v0
 
+### v0.0.3 (UNRELEASED)
+
+- Added Orders.add API.
+
 ### v0.0.2.2 (2016-10-26)
 
 - Fix date parsing bug.

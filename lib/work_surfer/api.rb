@@ -8,5 +8,6 @@ end
 require "work_surfer/api/base"
 
 require "work_surfer/api/approved_plans"
+require "work_surfer/api/orders"
 require "work_surfer/api/territories"
 require "work_surfer/api/time_of_arrival"
