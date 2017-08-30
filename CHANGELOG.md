@@ -5,7 +5,7 @@ An experiemental unofficial Ruby client for the
 
 ## v0
 
-### v0.0.3 (UNRELEASED)
+### v0.0.3 (2017-08-30)
 
 - Added Orders.add API.
 
