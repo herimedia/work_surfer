@@ -31,7 +31,7 @@ A Faraday connection builder. Defaults to:
 ```ruby
 ->(builder) {
   builder.adapter   Faraday.default_adapter
-  builder.request   :url_encoded
+  builder.request   :json
   builder.response  :parse_json
 }
 ```
